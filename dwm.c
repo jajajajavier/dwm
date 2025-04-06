@@ -248,12 +248,9 @@ static void setmfact(const Arg *arg);
 static void setup(void);
 static void seturgent(Client *c, int urg);
 static void showhide(Client *c);
-<<<<<<< ours
-=======
 static void sigchld(int unused);
 static void sighup(int unused);
 static void sigterm(int unused);
->>>>>>> theirs
 static void spawn(const Arg *arg);
 static Monitor *systraytomon(Monitor *m);
 static void tag(const Arg *arg);
@@ -2063,8 +2060,6 @@ showhide(Client *c)
 }
 
 void
-<<<<<<< ours
-=======
 sigchld(int unused)
 {
 	if (signal(SIGCHLD, sigchld) == SIG_ERR)
@@ -2087,7 +2082,6 @@ sigterm(int unused)
 }
 
 void
->>>>>>> theirs
 spawn(const Arg *arg)
 {
 	struct sigaction sa;
