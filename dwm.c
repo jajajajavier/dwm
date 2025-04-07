@@ -959,7 +959,7 @@ drawstatusbar(Monitor *m, int bh, char* stext) {
 	}
 
 	if (!isCode) {
-		w = TEXTW(text) - lrpad;
+		w = TEXTW(text) + lrpad;
 		drw_text(drw, x - 2 * sp, 0, w, bh, lrpad / 2, text, 0);
 	}
 
