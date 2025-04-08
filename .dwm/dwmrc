@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+picom &
+gentoo-pipewire-launcher restart &
+$HOME/.local/bin/wallpaper &
+
+$HOME/.dwm/bar.sh
